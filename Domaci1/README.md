@@ -30,6 +30,6 @@ Implementation Notes
     Use a thread pool for creating threads (except singleThreadPool).
     Implement a CyclicBarrier for the professor to handle the scenario where two students are needed for starting the defense.
 
-Objective
+Objective:
 
 After the 5-second defense window, calculate and print the average score of all students based on the grades received. This average should be accurate regardless of the number of students.
